@@ -7,7 +7,7 @@ app.use(cors()) // domain => eg: flipkart
 const port = 4000
 
 app.get("/first",(req,res)=>{
-    res.status(200).json({message:"Hello from first API"})
+    res.status(200).json({message:"Hello from first API AFTER DEPLOY"})
 })
 
 
